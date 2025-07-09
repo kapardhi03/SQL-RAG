@@ -328,10 +328,10 @@ sql-rag/
 └── requirements.txt     # Python dependencies
 ```
 
+![image](https://github.com/user-attachments/assets/f673e4ee-6f60-49bd-9ad8-4845cf3bfead)
 
-![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/var/folders/d8/1thk4j6j0bv6dh9xkymw6z_80000gn/T/TemporaryItems/NSIRD_screencaptureui_592kz3/Screenshot%25202025-07-09%2520at%252011.50.57%25E2%2580%25AFPM.png?version%253D1752085274138)
+![image](https://github.com/user-attachments/assets/f4d32349-e02b-45f1-8103-379a4fdc26e3)
 
-![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/var/folders/d8/1thk4j6j0bv6dh9xkymw6z_80000gn/T/TemporaryItems/NSIRD_screencaptureui_6f3MOQ/Screenshot%25202025-07-09%2520at%252011.53.21%25E2%2580%25AFPM.png?version%253D1752085406961)
 ---
 
 **⭐ Star this repository if you find it helpful!**
