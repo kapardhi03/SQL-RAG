@@ -236,6 +236,9 @@ if query_execution_fails:
     corrected_query = regenerate_sql_with_error_context(error_context)
     retry_execution(corrected_query)
 ```
+## WorkFlow
+![image](https://github.com/user-attachments/assets/d896b16e-c219-4278-8bce-32835c712af0)
+
 
 ---
 
