@@ -1,0 +1,5 @@
+docker run \
+  -p 5432:5432 \
+  --name container-postgresdb \
+  -e POSTGRES_PASSWORD=root \ 
+  -d postgres
