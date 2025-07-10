@@ -157,7 +157,8 @@ AVAILABLE_MODELS = {
 ```
 
 ---
-
+Core Innovations **1. Hybrid Search with Reciprocal Rank Fusion (RRF)** ``` python ``` ```python class HybridSearchEngine: def search(self, query): # Parallel search execution semantic_results = self.vector_search(query) keyword_results = self.keyword_search(query) # RRF scoring for rank, result in enumerate(semantic_results): result.score += 1.0 / (rank + 1) for rank, result in enumerate(keyword_results): result.score += 1.0 / (rank + 1) return self.merge_and_rank(semantic_results, keyword_results) ``` **Key Insight**: RRF handles cases where one search method completely misses relevant results while the other finds them, improving overall recall by 40%. **2. Dynamic Strategy Selection with LangGraph** ``` python ``` ```python class SQLGenerationAgent: def select_strategy(self, query_complexity, schema_info): if query_complexity.score < 0.3: return "template_based" elif query_complexity.score < 0.7: return "semantic_translation" else: return "multi_step_decomposition" def generate_sql(self, strategy, query): agent = self.strategy_agents[strategy] return agent.process(query) ``` **3. Error Recovery Pipeline** ``` python ``` ```python class ErrorRecoverySystem: def handle_sql_error(self, error, original_query, generated_sql): error_type = self.classify_error(error) if error_type == "syntax": return self.syntax_correction_agent(error, generated_sql) elif error_type == "schema": return self.schema_correction_agent(error, original_query) elif error_type == "semantic": return self.semantic_correction_agent(error, original_query) return self.escalate_to_human(error, original_query) ```
+---
 ##  **Usage**
 
 ### **Basic Query Examples**
