@@ -219,6 +219,7 @@ class ErrorRecoverySystem:
 ```
 
 ---
+```
 ##  **Usage**
 
 ### **Basic Query Examples**
