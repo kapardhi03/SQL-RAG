@@ -13,14 +13,14 @@ By integrating RAG, SQL-RAG enhances the accuracy and relevance of responses by 
 
 ##  **Features**
 
-- **🗣️ Natural Language Querying**: Ask questions in plain English, get structured data answers
-- ** Intelligent Table Selection**: Automatically identifies relevant tables for your query
-- ** Semantic Search Support**: Vector similarity search for conceptual queries
-- **⚡ Real-time Query Execution**: Fast and efficient SQL generation and execution
-- ** Error Recovery**: Automatic query correction with detailed error handling
-- ** Multi-Model Support**: Compatible with GPT-4, Gemini, Claude, and other LLMs
-- ** High Accuracy**: 100% faithfulness and 83.1% answer correctness
-- ** Enterprise Ready**: Built for production with PostgreSQL and vector support
+- **Natural Language Querying**: Ask questions in plain English, get structured data answers
+- **Intelligent Table Selection**: Automatically identifies relevant tables for your query
+- **Semantic Search Support**: Vector similarity search for conceptual queries
+- **Real-time Query Execution**: Fast and efficient SQL generation and execution
+- **Error Recovery**: Automatic query correction with detailed error handling
+- **Multi-Model Support**: Compatible with GPT-4, Gemini, Claude, and other LLMs
+- **High Accuracy**: 100% faithfulness and 83.1% answer correctness
+- **Enterprise Ready**: Built for production with PostgreSQL and vector support
 
 ---
 
